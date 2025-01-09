@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheCodeMatter</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="font-sans bg-[#fff7f7]">
+    <div id="main" class="relative">
+        <!-- Navbar -->
+        <header class="header flex justify-between items-center p-6  sticky top-0 z-50 fixed-top">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-extrabold text-gray-900">TheCodeMatter</span>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="tel:+13015499309" class="text-gray-800 font-medium hidden md:block">+91 83196 43753</a>
+                <button
+                    class="bg-[#F25252] border-2 border-red-400 text-white px-4 py-3 rounded-2xl hover:bg-[#F27777] transition">Contact
+                    us</button>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="h-auto w-screen p-12 relative mb-20">
+            <h1 id="main-heading"
+                class="text-5xl md:text-9xl  text-left md:text-left   font-extrabold text-gray-900 leading-tight">
+                <span class="">We</span> <span>Build</span><br>
+                <span>Experiences that</span>
+                <span class="text-[#F27777]">Matter</span>
+            </h1>
+            <p class="mt-4 text-gray-600 text-lg md:text-xl text-left md:text-end">
+                Empowering businesses worldwide with innovative <br><strong class="text-gray-800">web and software
+                    solutions.</strong>
+            </p>
+
+        </section>
+
+        <!-- Call to Action -->
+        <section class="relative p-3 md:p-6 flex aling-center justify-center flex-col">
+            <div id="call-to-action-inner"
+                class=" overflow-hidden h-full w-full bg-red-300 flex-col rounded-[50px] md:rounded-[100px] md:flex-row px-10 py-10  md:px-20 md:py-20">
+                <!-- <button id="follow-button"
+                    class="z-[10] abolute bg-[#F25252] w-[150px] h-[150px] text-white px-5 py-4 rounded-full hover:bg-[#F27777] transition">
+                    Send a request
+                </button> -->
+                <div class="h-full w-full  flex-col  md:flex-row p-5 flex">
+                    <div class="md:w-[60%]  flex items-center justify-center">
+                        <p class="opacity-[0.3] text-lg md:text-4xl text-white text-left">
+                            <strong> Your Vision, Our Expertise</strong><br>
+                            Based in Indore, India, we are a team of passionate developers delivering cutting-edge web
+                            and software solutions. With over 3 years of experience and a track record of excellence, we
+                            specialize in turning ideas into functional, user-friendly digital products.
+                        </p>
+                    </div>
+                    <div class="md:w-[40%] flex items-center justify-center p-10">
+                        <svg   width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+                        class="relative overflow-visible bg-[#fff7f7] p-5 rounded-full">
+                        <!-- Circle background -->
+                        <circle  cx="100" cy="100" r="90" fill="#fff7f7" />
+
+                        <!-- Circular text path -->
+                        <defs >
+                            <path    id="circlePath" d="M100,10 a90,90 0 1,1 0,180 a90,90 0 1,1 0,-180" />
+                        </defs>
+                        <text class="origin-center animate-spin-slow" font-size="12" fill="black" font-family="Arial" text-anchor="middle">
+                            <textPath  href="#circlePath" startOffset="50%" class="text-2xl">
+                                Send a request • Send a request • Send a request •
+                            </textPath>
+                        </text>
+
+                        <!-- Center arrow -->
+                        <g transform="translate(100, 100)">
+                            <line  x1="0" y1="-20" x2="0" y2="20" stroke="black" stroke-width="2" />
+                            <line x1="0" y1="-20" x2="7" y2="-13" stroke="black" stroke-width="2" />
+                            <line x1="0" y1="-20" x2="-7" y2="-13" stroke="black" stroke-width="2" />
+                        </g>
+                    </svg>
+                    </div>
+
+                </div>
+
+                <!-- Statestics -->
+                <!-- <div class=" w-full mt-5 grid grid-cols-2 lg:grid-cols-4 lg:mt-10 gap-12 text-center">
+                    <div>
+                        <h1 class=" text-5xl md:text-9xl text-white">80<span class="text-4xl">k</span></h1>
+                        <p class="mt-2 text-xs md:text-xl md:mt-5 text-white">applications</p>
+                    </div>
+                    <div>
+                        <h1 class=" text-5xl md:text-9xl text-white">2,3<span class="text-4xl">k</span></h1>
+                        <p class="mt-2 text-xs md:text-xl md:mt-5 text-white">Projects Completed</p>
+                    </div>
+                    <div>
+                        <h1 class=" text-5xl md:text-9xl text-white">120</h1>
+                        <p class="mt-2 text-xs md:text-xl md:mt-5 text-white">active clients</p>
+                    </div>
+                    <div>
+                        <h1 class=" text-5xl md:text-9xl text-white">74</h1>
+                        <p class="mt-2 text-xs md:text-xl md:mt-5 text-white">tech explored</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="py-16 overflow-hidden md:mt-20 relative">
+            <div class="flex slide-box mb-20  md:mb-40 flex-row ">
+                <h2 class="text-5xl md:text-7xl lg:text-9xl   whitespace-nowrap">
+                    Our Services <span class="text-gray-300">↗</span>
+                    Our Services <span class="text-gray-300">↗</span>
+                    Our Services <span class="text-gray-300">↗</span>
+                    Our Services <span class="text-gray-300">↗</span>
+                    Our Services <span class="text-gray-300">↗</span>
+                </h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-[50px] px-8 md:px-8">
+                <!-- Service Card 1 -->
+                <div
+                    class="card bg-gray-900 text-white rounded-[60px] px-7 py-9 flex flex-col gap-3 md:gap-6 lg:gap-9 justify-center">
+                    <span class="text-[#F25252] text-sm font-mono">{ 01 }</span>
+                    <div class="flex justify-center ">
+                        <img src="./images/undraw_web-devices_i15y.png" alt="IT Recruiting Illustration"
+                            class="h-24 md:h-40 mix-blend-multiply">
+                    </div>
+                    <h3 class="text-xl md:text-4xl">Web <br> Development</h3>
+                    <p class="text-gray-300 text-sm md:text-base">
+                        Responsive, SEO-optimized websites for modern businesses.
+                    </p>
+                </div>
+                <!-- Service Card 2 -->
+                <div
+                    class="card bg-gray-100 text-gray-900 rounded-[60px] px-7 py-9 flex flex-col gap-3 md:gap-6 lg:gap-9 justify-center">
+                    <span class="text-[#F25252] text-sm font-mono">{ 02 }</span>
+                    <div class="flex justify-center">
+                        <img src="./images/custom_software.png" alt="HR Consulting Illustration"
+                            class="h-24 md:h-40 mix-blend-multiply">
+                    </div>
+                    <h3 class="text-xl md:text-4xl">Custom Software <br> Solutions</h3>
+                    <p class="text-gray-600 text-sm md:text-base">
+                        Scalable applications designed to meet unique requirements.
+                    </p>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div
+                    class="card bg-gray-100 text-gray-900 xl:col-start-1 rounded-[60px] px-7 py-9 flex flex-col gap-3 md:gap-6 lg:gap-9 justify-center">
+                    <span class="text-[#F25252] text-sm font-mono">{ 03 }</span>
+                    <div class="flex justify-center">
+                        <img src="./images/undraw_fixing-bugs_13mt.png" alt="HR Consulting Illustration"
+                            class="h-24 md:h-40 mix-blend-multiply">
+                    </div>
+                    <h3 class="text-xl md:text-4xl">Bug Fixes & optimizations<br> </h3>
+                    <p class="text-gray-600 text-sm md:text-base">
+                        Quick and reliable debugging services to fix your code and optimize performance.
+                    </p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div
+                    class="card bg-[#F25252] text-gray-900 xl:col-start-3 rounded-[60px] px-7 py-9 flex flex-col gap-3 md:gap-6 lg:gap-9 justify-center">
+                    <span class="text-white text-sm font-mono">{ 04 }</span>
+                    <div class="flex justify-center">
+                        <img src="./images/undraw_maintenance_rjtm.png" alt="HR Consulting Illustration"
+                            class="h-24 md:h-40 mix-blend-multiply" >
+                    </div>
+                    <h3 class="text-white text-xl md:text-4xl">Maintenance & <br> Support</h3>
+                    <p class="text-white text-sm md:text-base">
+                        Reliable, ongoing technical assistance.
+                    </p>
+                </div>
+                <!-- Service Card 5 -->
+                <div
+                    class="card bg-white text-gray-900 xl:col-start-2 border-2 border-gray  rounded-[60px] px-9 py-9 flex flex-col gap-3 md:gap-6 lg:gap-9 justify-center">
+                    <h3 class="text-black text-3xl md:text-4xl">Which <br> service <br> do you need?</h3>
+                    <p class="mt-5 text-black text-sm md:text-base">
+                        We examine your recruitment strategy, find problems and suggest solutions.
+                    </p>
+                    <div class="w-full  flex justify-start mt-6">
+                        <button type="submit"
+                            class="flex items-center justify-center px-6 py-4 md:px-8 md:py-7 rounded-3xl hover:bg-[#F27777] hover:text-white transition border-2 border-red-400 text-red-400 text-black font-medium  focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2">
+                            Send a request
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="w-full stickyDiv my-9 h-[40vh] overflow-hidden flex flex-col justify-center  sticky top-0">
+            <h2 class="ms-9 text-5xl md:text-7xl lg:text-9xl  inline ">Clients</h2>
+        </section>
+
+        <div class="w-full sticky top-[40%] bg-white mt-20 h-[60vh] stickyDiv">
+            <div class="grid grid-cols-1 h-full  gap-8 mt-10">
+                <div class="p-6  md:p-8 border-t-2 p-6">
+                    <span class="text-purple-400 text-sm font-mono">{ 01 }</span>
+                    <div class="flex  w-full  aling-center  mt-10 gap-4">
+                        <img src="https://via.placeholder.com/150" alt="HR Consulting Illustration"
+                            class="h-10 md:h-10 rounded-full m-0">
+                        <h3 class="text-lg md:text-xl  m-0">eletricwolfns</h3>
+                    </div>
+                    <p class="mt-4 text-gray-600 text-sm md:text-3xl  lg:text-4xl xl:text-5xl">
+                        "This mans very patient and willing to work to help satisfy your order, would reccomend."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full sticky top-[40%] bg-white mt-20 h-[60vh] stickyDiv">
+            <div class="grid grid-cols-1 h-full  gap-8 mt-10">
+                <div class="p-6  md:p-8 border-t-2 p-6">
+                    <span class="text-purple-400 text-sm font-mono">{ 02 }</span>
+                    <div class="flex mt-6 w-full  aling-center mt-10 gap-4">
+                        <img src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/6a2e79c7c0a45624ee9aba58a2a700ae-92116121575209098970/JPEG_20191201_080458_3628900345703611293.jpg"
+                            alt="HR Consulting Illustration" class="h-10 md:h-10 rounded-full">
+                        <h3 class="text-lg md:text-xl  m-0">samuel05</h3>
+                    </div>
+                    <p class="mt-4 text-gray-600 text-sm md:text-3xl  lg:text-4xl xl:text-5xl">
+                        "Awesome job will definitely use your services again"
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full sticky top-[40%] bg-white mt-20 h-[60vh] stickyDiv">
+            <div class="grid grid-cols-1 h-full  gap-8 mt-10">
+                <div class="p-6  md:p-8 border-t-2 p-6">
+                    <span class="text-purple-400 text-sm font-mono">{ 03 }</span>
+                    <div class="flex mt-6 w-full  aling-center mt-10 gap-4">
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+                            alt="HR Consulting Illustration" class="h-10 md:h-10 rounded-full">
+                        <h3 class="text-lg md:text-xl  m-0">eletricwolfns</h3>
+                    </div>
+                    <p class="mt-4 text-gray-600 text-sm md:text-3xl  lg:text-4xl xl:text-5xl">
+                        "He did great no probloms"
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="stickyDiv4" class=" sticky top-[40%] bg-white mt-20 h-[60vh] z-0 stickyDiv">
+            <div class="grid grid-cols-1 h-full  gap-8 mt-10">
+                <div class="p-6  md:p-8 border-t-2 p-6 flex flex-col">
+                    <span class="text-purple-400 text-sm font-mono">{ 04 }</span>
+                    <div class="flex mt-6 w-full  aling-center mt-10 gap-4">
+                        <img src="https://via.placeholder.com/150" alt="HR Consulting Illustration"
+                            class="h-10 md:h-10 rounded-full">
+                        <h3 class="text-lg md:text-xl  m-0">The Code Matter</h3>
+                    </div>
+                    <p class="mt-4 text-gray-600 text-sm md:text-3xl  lg:text-4xl xl:text-5xl">
+                        "We want your <strong>review</strong> here." <br>
+                        Choose from our services or Contact us
+                    </p>
+
+                    <div class="grow-1  flex justify-end p-5">
+                        <button type="submit"
+                            class="flex items-center justify-center px-6 py-4 md:px-8 md:py-7 rounded-3xl hover:bg-[#F27777] hover:text-white transition border-2 border-red-400 text-red-400 text-black font-medium  focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2">
+                            Send a request
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Contact form -->
+        <section class="relative p-3 md:p-6">
+            <div class="text-[#fff7f7] w-full bg-black  rounded-[50px] md:rounded-[100px] px-10 py-10   md:px-20 md:py-40">
+                <h1 class="text-3xl md:text-5xl font-semibold mb-2">Which specialists you need?</h1>
+                <p class="text-gray-300 mb-8 md:text-2xl">Leave a request and we will contact you as soon as possible.
+                </p>
+                <form id="myForm" onsubmit="hadelFormSubmit(event)" method="POST" class="space-y-9">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Name Field -->
+                        <div>
+                            <label for="name" class="block text-xs md:text-sm lg:text-md  font-medium mb-2">Name
+                                *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name"
+                                class="w-full 
+                                py-4 text-lg 
+                                md:py-3 md:text-xl 
+                                lg:py-6 lg:text-2xl 
+                                bg-transparent border-b rounded-none border-b-gray-500 rounded-md text-white placeholder-gray-400 focus:outline-none  focus:border-b-gray-100 focus:placeholder-gray-100">
+                        </div>
+
+                        <!-- Phone Field -->
+                        <div>
+                            <label for="phone" class="block text-xs md:text-sm lg:text-md  font-medium mb-2">Phone
+                                *</label>
+                            <input type="text" id="phone" name="phone" placeholder="Enter your phone"
+                                class="w-full 
+                                py-4 text-lg 
+                                md:py-3 md:text-xl 
+                                lg:py-6 lg:text-2xl 
+                                bg-transparent border-b rounded-none border-b-gray-500 rounded-md text-white placeholder-gray-400 focus:outline-none  focus:border-b-gray-100 focus:placeholder-gray-100">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Company Name Field -->
+                        <div>
+                            <label for="company" class="block text-xs md:text-sm lg:text-md  font-medium mb-2">Company
+                                name *</label>
+                            <input type="text" id="company" name="company" placeholder="Enter Company Name"
+                                class="w-full 
+                                py-4 text-lg 
+                                md:py-3 md:text-xl 
+                                lg:py-6 lg:text-2xl 
+                                bg-transparent border-b rounded-none border-b-gray-500 rounded-md text-white placeholder-gray-400 focus:outline-none  focus:border-b-gray-100 focus:placeholder-gray-100">
+                        </div>
+                        <div>
+                            <label for="company" class="block text-xs md:text-sm lg:text-md  font-medium mb-2">Email
+                                *</label>
+                            <input type="email" id="company" name="company" placeholder="Enter email"
+                                class="w-full 
+                                py-4 text-lg 
+                                md:py-3 md:text-xl 
+                                lg:py-6 lg:text-2xl 
+                                bg-transparent border-b rounded-none border-b-gray-500 rounded-md text-white placeholder-gray-400 focus:outline-none  focus:border-b-gray-100 focus:placeholder-gray-100">
+                        </div>
+                    </div>
+
+                    <!-- Description Field -->
+                    <div>
+                        <label for="description" class="block text-xs md:text-sm lg:text-md  font-medium mb-2">What
+                            specialists are you looking
+                            for?</label>
+                        <textarea id="description" name="description" rows="1"
+                            placeholder="Describe the specialists you need"
+                            class="w-full 
+                            py-4 text-lg 
+                            md:py-3 md:text-xl 
+                            lg:py-6 lg:text-2xl 
+                            bg-transparent border-b rounded-none border-b-gray-500 rounded-md text-white placeholder-gray-400 focus:outline-none  focus:border-b-gray-100 focus:placeholder-gray-100"></textarea>
+                    </div>
+
+                    <!-- NDA Agreement -->
+                    <div class="flex items-center">
+                        <input type="checkbox" id="nda" name="nda"
+                            class="w-4 h-4 text-purple-400 bg-transparent border-gray-500 rounded focus:ring-2 focus:ring-purple-400">
+                        <label for="nda" class="ml-2 text-sm text-gray-300">I want to protect my data by signing a
+                            Non-Disclosure Agreement</label>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="flex justify-end">
+                        <button type="submit"
+                            class="flex items-center justify-center px-8 py-6 rounded-3xl hover:bg-[#F27777] hover:text-white text-red-400 transition border-2 border-red-400 font-medium  focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2">
+                            Send a request
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <div class="w-screen  bg-black text-[#fff7f7]">
+            <div class="mx-auto py-20 px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- Left Section -->
+                    <div class="flex flex-col ">
+                        <div>
+                            <h1 class="text-5xl font-semibold">
+                                Building <span class="text-purple-400">teams</span><br> that drive results
+                            </h1>
+                        </div>
+
+                        <div class="mt-8 flex  flex-col flex-1  justify-between ">
+                            <div class="my-9 ">
+                                <svg   width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+                                    class="relative overflow-visible bg-[#fff7f7] p-5 rounded-full">
+                                    <!-- Circle background -->
+                                    <circle  cx="100" cy="100" r="90" fill="#fff7f7" />
+
+                                    <!-- Circular text path -->
+                                    <defs >
+                                        <path    id="circlePath" d="M100,10 a90,90 0 1,1 0,180 a90,90 0 1,1 0,-180" />
+                                    </defs>
+                                    <text class="origin-center animate-spin-slow" font-size="12" fill="black" font-family="Arial" text-anchor="middle">
+                                        <textPath  href="#circlePath" startOffset="50%" class="text-2xl">
+                                            Send a request • Send a request • Send a request •
+                                        </textPath>
+                                    </text>
+
+                                    <!-- Center arrow -->
+                                    <g transform="translate(100, 100)">
+                                        <line  x1="0" y1="-20" x2="0" y2="20" stroke="black" stroke-width="2" />
+                                        <line x1="0" y1="-20" x2="7" y2="-13" stroke="black" stroke-width="2" />
+                                        <line x1="0" y1="-20" x2="-7" y2="-13" stroke="black" stroke-width="2" />
+                                    </g>
+                                </svg>
+                            </div>
+
+
+                            <div class="flex items-last  space-x-4 mt-4 md:mt-0 flex-grow-1">
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center border text-xl  rounded-2xl p-6"
+                                    target="blank"><i class="fa-brands fa-facebook-f"></i></a>
+
+                                <a href="https://x.com/thecodematter"
+                                    class="w-8 h-8 flex items-center justify-center border text-xl  rounded-2xl p-6"
+                                    target="blank"><i class="fa-brands fa-x-twitter"></i></a>
+
+                                <a href="https://www.instagram.com/thecodematter/"
+                                    class="w-8 h-8 flex items-center justify-center border text-xl  rounded-2xl p-6"
+                                    target="blank"><i class="fa-brands fa-instagram"></i></a>
+
+                                <a href="https://www.youtube.com/@TheCodeMatter"
+                                    class="w-8 h-8 flex items-center justify-center border text-xl  rounded-2xl p-6"
+                                    target="blank"><i class="fa-brands fa-youtube"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Section -->
+                    <div class="text-[#fff7f7]">
+                        <h2 class="text-lg font-medium mb-4">Send us a message</h2>
+                        <p class="text-sm mt-10">Call us:</p>
+                        <p class="text-2xl md:text-4xl font-semibold mb-4">+91 83196 43753</p>
+                        <p class="text-sm mt-10">Email us at:</p>
+                        <p class="text-2xl md:text-4xl font-semibold mb-8">thecodematter@gmail.com</p>
+                        <h3 class="text-lg font-medium mb-4">Offices</h3>
+                        <div class="grid grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <p class="font-medium">New York</p>
+                                <p>44 Griddle Ln, Levittown</p>
+                            </div>
+                            <div>
+                                <p class="font-medium">San Francisco</p>
+                                <p>2406 Sycamore Street</p>
+                            </div>
+                            <!-- <div>
+                            <p class="font-medium">Los Angeles</p>
+                            <p>1957 Koontz Lane</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">London</p>
+                            <p>355 West Street</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Paris</p>
+                            <p>19, Rue Alain Chartier</p>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Footer -->
+                <div class="mt-16 flex flex-col md:flex-row items-center justify-between border-t border-gray-700 pt-8">
+                    <p class="text-sm">Copyright &copy; 2024, Brightman</p>
+
+                    <div class="mt-4 md:mt-0 flex space-x-4">
+                        <a href="#" class="text-sm">Privacy Policy</a>
+                        <a href="#" class="text-sm">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"></script>
+
+    <script defer src="./script.js"></script>
+    <script defer src="./form.js"></script>
+</body>
+
+
+</html>
